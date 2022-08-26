@@ -7,8 +7,8 @@ pub mod anchor_first {
     use super::*;
 
     pub fn initialize(ctx: Context<Initialize>,_bump:u8) -> Result<()> {
-        msg!("heeeeeeeeeeeeeee");
-        print!("hello");
+        msg!("PDA initialised successfully");
+        
 
         Ok(())
     }
